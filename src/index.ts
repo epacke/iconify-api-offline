@@ -12,6 +12,7 @@ import { loadEnvConfig } from './misc/load-config';
 	config();
 	loadEnvConfig();
 
+	/* Remove this comment to update the icon cache
 	// Reset old cache
 	await cleanupStorageCache(iconSetsStorage);
 
@@ -24,6 +25,7 @@ import { loadEnvConfig } from './misc/load-config';
 		await importers[i].init();
 	}
 	setImporters(importers);
+	*/
 	updateIconSets();
 
 	// Loaded
